@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-uploading-large-files",
+            "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -48,6 +48,7 @@
                   "maximumError": "4kb"
                 }
               ],
+              "baseHref": "https://ivanvoznyi.github.io/Angular-Upload-File-In-Chunks/",
               "outputHashing": "all"
             },
             "development": {
@@ -100,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "6df3f38d-6a44-4dec-a3cb-c1d1fcbcb608"
   }
 }

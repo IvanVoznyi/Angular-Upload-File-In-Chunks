@@ -1,16 +1,18 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DragDropFileUploadDirective } from './directives/drag-drop-file-upload.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DragDropFileUploadDirective
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
